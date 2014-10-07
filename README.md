@@ -1,10 +1,3 @@
-*NOTE* (02/23/2013) - I have not been actively maintaining this app (as anyone
-can tell from my levels of participation these last few years).  I apologize
-for that because I, myself, hate seeing open source solutions fade with time.
-To that end, I would prefer to point people to an active fork of the project.
-If you have a fork, or know of a good fork to use, please let me know and I
-will post the links/recommendations here.  It's been fun sharing. -Damon
-
 Django-HitCount
 ===============
 
@@ -42,14 +35,14 @@ Simplest way to formally install is to run:
 
 Or, you could do a PIP installation:
 
-    pip install -e git://github.com/thornomad/django-hitcount.git#egg=django-hitcount
+    pip install -e git://github.com/scottwrobinson/django-hitcount.git#egg=django-hitcount
 
 Or, you can link the source to your `site-packages` directory.  This is useful
 if you plan on pulling future changes and don't want to keep running
 `./setup.py install`.
 
     cd ~/src
-    git clone git://github.com/thornomad/django-hitcount.git
+    git clone git://github.com/scottwrobinson/django-hitcount.git
     sudo ln -s `pwd`/django-hitcount/hitcount `python -c "from distutils.sysconfig import get_python_lib; print get_python_lib()"`/hitcount
 
 Special thanks to ariddell for putting the `setup.py` package together.
